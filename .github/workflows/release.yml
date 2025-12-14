@@ -17,7 +17,7 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
         with:
-          repository: DIYgod/diygod.cc
+          repository: justjustCC/justcc.cc
           token: ${{ secrets.GH_TOKEN_FOR_CHECKOUT }}
       - name: Install, build, and upload your site
         uses: withastro/action@v3
